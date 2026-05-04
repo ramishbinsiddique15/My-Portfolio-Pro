@@ -165,7 +165,7 @@ const ProjectsArchive = () => {
 
   useEffect(() => {
     window.scrollTo(0, 0);
-    document.title = 'Archive';
+    document.title = 'Projects | Ramish Bin Siddique';
   }, []);
 
   return (

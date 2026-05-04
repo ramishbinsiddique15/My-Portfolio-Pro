@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import Hero from '../components/sections/Hero';
 import About from '../components/sections/About';
 import HorizontalWork from '../components/sections/HorizontalWork';
@@ -7,6 +7,9 @@ import Experience from '../components/sections/Experience';
 import Contact from '../components/sections/Contact';
 
 const Home = () => {
+  useEffect(() => {
+    document.title = 'Ramish Bin Siddique | Full-Stack MERN Architect';
+  }, []);
   return (
     <main className="w-full flex flex-col">
       <Hero />

@@ -1,4 +1,4 @@
-import React, { useRef, useCallback } from 'react';
+import React, { useRef, useCallback, useEffect } from 'react';
 import { motion, useMotionValue, useMotionTemplate, useSpring } from 'framer-motion';
 import { Terminal, Server, Layers, Cpu, Zap, ArrowRight } from 'lucide-react';
 
@@ -33,6 +33,10 @@ const MagneticElement = ({ children, className, tiltMax = 5 }) => {
 };
 
 const Capabilities = () => {
+  useEffect(() => {
+    document.title = 'Capabilities | Ramish Bin Siddique';
+  }, []);
+  
   const sectionRef = useRef(null);
   const mouseX = useMotionValue(-1000);
   const mouseY = useMotionValue(-1000);
