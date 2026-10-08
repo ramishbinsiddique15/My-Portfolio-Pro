@@ -209,7 +209,7 @@ const sectionRef = useRef(null);
                   </div>
                   <div className="flex items-center gap-4 text-zinc-500 group-hover/status:text-zinc-400 transition-colors font-mono text-[10px] uppercase tracking-[0.2em]">
                     <ShieldCheck className="w-4 h-4 text-indigo-500" />
-                    <span>7th Sem CS Architect</span>
+                    <span>BS CS Graduate | 3.85 CGPA (Silver Medalist)</span>
                   </div>
                 </div>
               </div>
@@ -295,7 +295,7 @@ const sectionRef = useRef(null);
         <footer className="mt-40 pt-10 border-t border-zinc-900 flex flex-col md:flex-row justify-between items-center gap-8 opacity-40 hover:opacity-100 transition-opacity duration-500 relative z-10">
           <div className="font-mono text-[9px] uppercase tracking-widest text-zinc-500 space-y-1 text-center md:text-left">
             <p className="text-zinc-300">© {new Date().getFullYear()} RAMISH BIN SIDDIQUE</p>
-            <p>7TH_SEM_CS</p>
+            <p>BS_CS_GRADUATE // 3.85_CGPA // SILVER_MEDALIST</p>
           </div>
           <div className="flex flex-col md:flex-row items-center gap-4 md:gap-8">
             <a href="/Resume.pdf" download="Ramish_Siddique_Resume.pdf" className="font-mono text-[9px] uppercase tracking-widest text-indigo-500 hover:text-indigo-400 transition-colors">Resume.log</a>

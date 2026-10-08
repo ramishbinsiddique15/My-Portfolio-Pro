@@ -139,7 +139,7 @@ const About = () => {
                 <span className="text-zinc-100">Role:</span> Full-Stack MERN Architect
               </p>
               <p className="text-zinc-400 font-mono text-xs uppercase tracking-widest leading-relaxed">
-                <span className="text-zinc-100">Status:</span> 7th Sem Computer Science
+                <span className="text-zinc-100">Status:</span> BS CS Graduate (3.85 CGPA • Silver Medalist)
               </p>
               <p className="text-zinc-400 font-mono text-xs uppercase tracking-widest leading-relaxed">
                 <span className="text-zinc-100">Focus:</span> AI Integration & Scalable Web
